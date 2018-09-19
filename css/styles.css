@@ -31,24 +31,97 @@ p{
   font-size: 4vw;
   font-weight: bold;
   margin: 0;
+  text-align: center;
 
-  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 3s; /* Firefox < 16 */
-      -ms-animation: fadein 3s; /* Internet Explorer */
-       -o-animation: fadein 3s; /* Opera < 12.1 */
-          animation: fadein 3s;
+  opacity:0;
+  opacity: 1 \9; /*just in case ie*/
+  -webkit-animation:fadein ease-in 1;
+  -moz-animation:fadein ease-in 1;
+  animation:fadein ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
 }
 
 #slogan{
   font-style: italic;
   font-size: 1vw;
+  text-align: center;
 
-  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 3s; /* Firefox < 16 */
-      -ms-animation: fadein 3s; /* Internet Explorer */
-       -o-animation: fadein 3s; /* Opera < 12.1 */
-          animation: fadein 3s;  
+  -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 1.5s; /* Firefox < 16 */
+      -ms-animation: fadein 1.5s; /* Internet Explorer */
+       -o-animation: fadein 1.5s; /* Opera < 12.1 */
+          animation: fadein 1.5s;  
+
 }
+
+nav{
+  text-align: center;
+  margin: 0;
+  padding-top: 1vw;
+
+  opacity:0;
+  opacity: 1 \9; /*just in case ie*/
+  -webkit-animation:fadein ease-in 1;
+  -moz-animation:fadein ease-in 1;
+  animation:fadein ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
+
+}
+
+ul{
+  text-align: center;
+}
+
+nav li{
+  text-align: center;
+  display: inline;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  font-size: 1.1vw;
+  margin-right: 2vw;
+  transition: 0.7s;
+}
+
+li:hover {
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -80,3 +153,5 @@ p{
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
+
