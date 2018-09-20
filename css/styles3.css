@@ -26,18 +26,17 @@ body{
   font-weight: normal;
 }
 
-nav{
+#nav{
   display: inline-block;
   padding: 0px;
   margin: 0px;
 }
 
-ul{
+#nav_id{
   text-align: center;
-  padding: 0px;
 }
 
-nav li{
+#nav_id li{
   text-align: center;
   display: inline;
   font-family: 'Quicksand', sans-serif;
@@ -47,6 +46,44 @@ nav li{
   transition: 0.7s;
   padding-left: 2vw;
   padding-right: 2vw;
+}
+
+.events{
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+}
+
+.quick_info{
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+}
+
+.description{
+  padding:0px;
+  margin: 0px;
+  display:inline-block;
+}
+
+ul{
+  padding: 0px;
+  margin: 0px;
+}
+
+#event_name{
+ font-size:2vw; 
+ padding-bottom: 1vw;
+}
+
+ul li{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  margin: 0;
+  font-size: 1vw;
+  text-decoration: none;
+  list-style-type: none;
+  padding-top: 0.5vw;
 }
 
 figcaption{
@@ -111,25 +148,9 @@ img{
 
 p{
   font-family: 'Quicksand', sans-serif;
-  font-size: 1.5vw;
-
-  opacity:0;
-  opacity: 1 \9; /*just in case ie*/
-  -webkit-animation:fadein ease-in 1;
-  -moz-animation:fadein ease-in 1;
-  animation:fadein ease-in 1;
-
-  -webkit-animation-fill-mode:forwards;
-  -moz-animation-fill-mode:forwards;
-  animation-fill-mode:forwards;
-
-  -webkit-animation-duration:1s;
-  -moz-animation-duration:1s;
-  animation-duration:1s;
-
-  -webkit-animation-delay: 0.5s;
-  -moz-animation-delay: 0.5s;
-  animation-delay: 0.5s;
+  font-size: 1vw;
+  padding: 0px;
+  margin: 0px;
 }
 
 
