@@ -51,19 +51,20 @@ body{
 .events{
   padding: 0px;
   margin: 0px;
-  display: inline-block;
-}
-
-.quick_info{
-  padding: 0px;
-  margin: 0px;
-  display: inline-block;
+  display: flex;
 }
 
 .description{
   padding:0px;
+  padding-right: 5vw;
   margin: 0px;
-  display:inline-block;
+  flex-grow: 2;
+}
+
+.poster{
+  padding:0px;
+  margin:0px;
+  flex-grow: 1;
 }
 
 ul{
@@ -142,8 +143,8 @@ h2 {
 }
 
 img{
-  height: 12vw;
-  width: 12w;
+  height: 35vw;
+  width: 35w;
 }
 
 p{
