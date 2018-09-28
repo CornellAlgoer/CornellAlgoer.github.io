@@ -30,6 +30,7 @@ body{
 #nav{
   padding: 0px;
   margin: 0px;
+  display: inline-block;
 }
 
 #nav_id{
@@ -259,6 +260,10 @@ p{
     img{
       padding-bottom: 20vw;
       height:80vw;
+    }
+
+    #nav{
+      display: block;
     }
 
 }
