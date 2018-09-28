@@ -184,7 +184,6 @@ p{
     to   { opacity: 1; }
 }
 
-@media (max-width: 600px) {
     body {
       background-image: url(../images/background_m.jpg);
       background-size: 100%; 100%;
@@ -266,7 +265,6 @@ p{
       display: block;
     }
 
-}
 
 
 
