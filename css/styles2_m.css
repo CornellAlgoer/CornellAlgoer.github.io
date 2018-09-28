@@ -14,13 +14,15 @@
       text-align: center;
     }
 
-    nav ul li{
-      font-size: 4vw !important;
+    nav li{
+      font-size: 4vw;
+      display: block;
+      text-align: left;
+      padding-top: 1vw;
     }
 
-    .events{
-      display: block;
-      text-align: center;
+    h2{
+      font-size: 4vw;
     }
 
     p{
@@ -28,58 +30,45 @@
     }
 
     img{
-      padding: 0;
-      margin: 0;
-      height: 120vw;
-      width: 100%;
+      height: 28vw;
+      width: 28vw;
     }
 
-    #event_name{
-      font-size: 4vw;
-    }
-
-    .description{
-      padding:0
-    }
-
-    ul li{
-      font-size: 1.5vw;
-      padding-top: 1vw;
+    figcaption{
+      font-size: 2.5vw;
     }
 
     #nav{
+      display: block;
       position: absolute;
       position: fixed;
     }
 
     #nav_id li{
-      display: block; 
+      display: block;
       text-align: left;
     }
 
+    ul{
+      display: block;
+    }
+    
     #logo{
       text-align: left;
     }
 
     #content{
-      padding-right: 10;
+      padding-right: 10vw;
       padding-left: 35vw;
       height: 100%;
       overflow: scroll;
       padding-top: 0;
-      margin-top: 5vw;
+      margin: 5vw;
     }
 
-    img{
-      padding-bottom: 20vw;
-      height:80vw;
+    #pics{
+      margin-bottom: 20vw;
     }
-
-    #nav{
-      display: block;
-    }
-
-
 
 
 
