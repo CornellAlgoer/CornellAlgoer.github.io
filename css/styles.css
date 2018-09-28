@@ -92,6 +92,9 @@ nav{
 
 ul{
   text-align: center;
+  padding: 0;
+  padding-top: 1vw;
+  margin: 0;
 }
 
 nav li{
@@ -151,4 +154,27 @@ a:visited {
     to   { opacity: 1; }
 }
 
+/* Begin Mobile */
+
+@media (max-width: 600px) {
+  body{
+    background-image: url(../images/background_m.jpg);
+    background-size: 100% 100%;
+  }
+
+  #title_bar{
+    font-size: 9vw;
+  }
+
+  #slogan{
+    font-size: 4vw;
+  }
+
+  nav li{
+    font-size: 5vw;
+    display: block;
+    padding-top: 1vw;
+  }
+
+}
 

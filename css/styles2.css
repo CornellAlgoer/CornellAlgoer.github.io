@@ -7,6 +7,7 @@ html {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
+  overflow: auto;
 
 }
 
@@ -15,6 +16,7 @@ body{
   padding: 0px;
   height: 100%;
   width: 100%;
+  overflow: auto;
 }
 
 #logo{
@@ -162,7 +164,44 @@ p{
     to   { opacity: 1; }
 }
 
+@media (max-width: 600px) {
+    body {
+      background-image: url(../images/background_m.jpg);
+      background-size: 100%; 100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
 
+    #logo{
+      font-size: 8vw;
+      display: block;
+    }
+
+    #nav_bar {
+      text-align: center;
+    }
+
+    nav li{
+      font-size: 4vw;
+    }
+
+    h2{
+      font-size: 6vw;
+    }
+
+    p{
+      font-size: 4vw;
+    }
+
+    img{
+      height: 28vw;
+      width: 28vw;
+    }
+
+    figcaption{
+      font-size: 2.5vw;
+    }
+}
 
 
 
